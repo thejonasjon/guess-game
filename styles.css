@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* LAYOUT */
+header {
+  background-color: #1b3f66;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.number {
+  background: #fff;
+  color: #333;
+  font-size: 6rem;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 15rem;
+  margin: 20px auto;
+}
+
+.between {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.again {
+  margin-top: 10px;
+}
+
+.btn.again {
+  background-color: #b42f2f;
+}
+
+.btn.again:hover {
+  background-color: #b42f2fbf;
+}
+
+.guess {
+  background: #444;
+  border: 1px solid #1b3f66;
+  color: #fff;
+  font-size: 4rem;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  width: 70%;
+  text-align: center;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+.guess::placeholder {
+  font-size: 2.4rem;
+}
+
+.guess:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+.btn {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.label-score,
+.label-highscore {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.score,
+.highscore {
+  font-weight: bold;
+}
+
+.check {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
